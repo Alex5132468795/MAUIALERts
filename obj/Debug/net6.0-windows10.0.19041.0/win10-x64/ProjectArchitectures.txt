@@ -1,0 +1,1 @@
+C:\Users\user\source\repos\MauiApp8\MauiApp8\MauiApp8.csproj;x64

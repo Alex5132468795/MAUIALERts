@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp8.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label Text="SurName"></Label>
+            <Entry x:Name="SurName">
+
+            </Entry>
+            <Label Text="Name"></Label>
+            <Entry x:Name="Name">
+
+            </Entry>
+            <Label Text="Futher's name"></Label>
+            <Entry x:Name="FuthersName">
+
+            </Entry>
+            <Label Text="Number phone"></Label>
+            <Entry x:Name="Number">
+
+            </Entry>
+            <Label Text="mail"></Label>
+            <Entry x:Name="Mail">
+
+            </Entry>
+            <Label Text="Regin"></Label>
+            <Entry x:Name="Regin">
+
+            </Entry>
+            <Button Clicked="Button_Clicked"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
